@@ -20,11 +20,6 @@ except Exception as e:
     print(e)
 
 try:
-    print(my_square_1.__size)
-except Exception as e:
-    print(e)
-
-try:
     my_square_3 = Square("3")
     print(type(my_square_3))
     print(my_square_3.__dict__)
